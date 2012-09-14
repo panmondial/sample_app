@@ -171,3 +171,7 @@ input, textarea, select, .uneditable-input {
   @extend .control-group;
   @extend .error;
  }
+ 
+#user_name, #user_email, #user_password, #user_password_confirmation, #session_email, #session_password {
+  height: 30px;
+}
